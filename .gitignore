@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos de configuración local
+*.env
+*.local
+*.log
+
+# Archivos generados por pruebas
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Archivos de pip
+pip-log.txt
+
+# Mac OS
+.DS_Store
+
+# Archivos generados por FastAPI o Uvicorn en tiempo de ejecución
+*.db
+*.sqlite3
